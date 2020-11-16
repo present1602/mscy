@@ -1,0 +1,81 @@
+#skillsWrap {
+  background-color: #262331;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 5%;
+  padding-top:7%;
+}
+
+.gridbox-3col{
+  display: grid;
+  height: 80px;
+  
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  /* grid-template-rows: 100px 100px 100px; */
+  
+  grid-gap: 30px;
+  color:#fff;
+  padding: 0 10% 5% 15%;
+}  
+.gridbox-5col{
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  height: 80px;
+
+  grid-gap: 20px;
+  color:#fff;
+  padding: 0 10% 5% 15%;
+
+}
+
+/* .gridbox > div{
+  color:"##fff";
+  outline: #00c9db;
+  border-radius: 5px;
+} */
+
+.langGroupTitle{
+  color:#00c9db;
+  font-size:2em;
+}
+.proLangImgBox {
+  max-height: 60px;
+  padding: 5%;
+  background:#fff;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.proLangImgBox > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  max-height: 80px;
+}
+
+.skillsTop{
+  font-size: 2.2em; 
+  color: rgba(167,167,167)
+}
+
+@media screen and (max-width: 768px) { 
+  .proLangImgBox {
+    position: relative;
+    height: 34px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  .langGroupTitle{
+    font-size:1.2em;
+  } 
+  .gridbox-3col, .gridbox-5col{
+    padding-left: 5%;
+    grid-gap: 10px;
+  }
+  .skillsTop{
+    font-size: 1.5em; 
+    color: rgba(167,167,167)
+  }
+}

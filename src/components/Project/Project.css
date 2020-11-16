@@ -1,0 +1,95 @@
+.flex-res{
+  display: flex;
+}
+
+
+
+.projectTitle{
+  font-size: 1.8rem;
+  padding: 10px 0;
+}
+.mainInfoText{
+  line-height: 1.6em;
+  font-size: 1.3em;
+  color: rgba(77,77,77)
+}
+
+.subInfoTop{
+  border-bottom: 1px solid rgba(212,212,212);
+  margin: 10px 0 ;
+  margin-right: 12px;
+}
+
+.subInfoTitle{
+  border-bottom: 3px solid #4633af;
+  position: relative;
+  top: -2px;
+  font-size: 1.4em;
+}
+
+.subInfoText{
+  color: rgba(97,97,97);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.projectImgBox{
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.projectImgBox > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .projectTitle{
+    font-size:1.5rem
+  }
+  .mainInfoText{
+    font-size:1.1rem
+  }
+  .subInfoTitle{
+    font-size:1.1rem
+  }
+  .subInfoText{
+    font-size:0.9rem
+  }
+  .flex-res{
+    flex-direction: column;
+  }   
+  .projectImgBox{
+    padding: 0
+  }
+  .projectImgBox > img{
+    height: 200px; 
+    width: 200px;
+    object-fit: contain;
+  }
+}
+
+
+@media screen and (max-width: 768px) { 
+
+  .proLangImgBox {
+    position: relative;
+    height: 25px;
+    margin: 20px 0;
+    overflow: hidden;
+
+  }
+  .langGroupTitle{
+    font-size:1.1em;
+  } 
+  .skillsTop{
+    font-size: 1.5em; 
+    color: rgba(167,167,167)
+  }
+}
