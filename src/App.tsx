@@ -83,9 +83,9 @@ function App() {
   return (
     <div id="container">
       
-      { state.layerScreen.openLayer && 
+      {/* { state.layerScreen.openLayer && 
           <Layer />
-      }
+      } */}
       <TopNav />
       <Welcome />
       <Skills />
