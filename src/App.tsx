@@ -57,8 +57,11 @@ window.addEventListener('scroll', handleScroll2('ccc', innerfnc));
 function App() {
   console.log("App() comp")
   const { state, dispatch } = React.useContext(RootContext);
-  
+
+
   useEffect( () => {
+    console.log("useEffect in App.txs : ", state);
+
     dispatch({
       type: "FETCH_BASIC_DATA",
       payload: basicData
@@ -83,9 +86,9 @@ function App() {
   return (
     <div id="container">
       
-      {/* { state.layerScreen.openLayer && 
+      {/* { state.layerScreen.openLayer &&  */}
           <Layer />
-      } */}
+      {/* } */}
       <TopNav />
       <Welcome />
       <Skills />

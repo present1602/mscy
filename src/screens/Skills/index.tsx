@@ -18,7 +18,7 @@ const Skills = () => {
           <div className="gridbox-5col">
             { frs.map(el => {
               return ( 
-                <div className="proLangImgBox">
+                <div className="proLangImgBox" key={Math.random()}>
                   <img src={ require('../../assets/images/langlogo/frontend/' + el + '.png') }/>
                 </div>
               );
@@ -29,7 +29,7 @@ const Skills = () => {
           <div className="gridbox-3col">
             { bks.map(el => {
               return ( 
-                <div className="proLangImgBox">
+                <div className="proLangImgBox" key={Math.random()}>
                   <img src={ require('../../assets/images/langlogo/backend/' + el + '.png') }/>
                 </div>
               );
@@ -40,7 +40,7 @@ const Skills = () => {
           <div className="gridbox-3col">
             { dbs.map(el => {
               return ( 
-                <div className="proLangImgBox">
+                <div className="proLangImgBox" key={Math.random()}>
                   <img src={ require('../../assets/images/langlogo/db/' + el + '.png') }/>
                 </div>
               );
@@ -51,7 +51,7 @@ const Skills = () => {
           <div className="gridbox-3col">
             { servers.map(el => {
               return ( 
-                <div className="proLangImgBox">
+                <div className="proLangImgBox" key={Math.random()}>
                   <img src={ require('../../assets/images/langlogo/server/' + el + '.png') }/>
                 </div>
               );
