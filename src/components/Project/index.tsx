@@ -39,7 +39,7 @@ const Project = (props: any) => {
   return (
     <div style={{
       padding: '5%', margin: '5% 0', backgroundColor: '#fff',
-      outline: '1px solid rgba(222,222,222)',
+      outline: '1px solid rgba(212,212,212)',
       // textAlign:'center' 
     }}>
       <div className="flex-res">

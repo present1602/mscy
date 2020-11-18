@@ -27,20 +27,6 @@ const portfolioData = [
     ],    
     video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/djmk_video.mov',
   },
-  // { 
-  //   abbr: 'cpst',
-  //   title : '캠퍼스톡',
-  //   intro_description : 'SNS형 대학생 커뮤니티',
-  //   thumbImg : 'thumb_cpst.png',
-  //   description: 'description detail2',
-  //   basic_info : [
-  //     {'name': '기간', 'value': '2018.2~2018.5'},
-  //     {'name': '형태', 'value': '모바일웹'},
-  //     {'name': 'Git', 'value': 'github.com/present1602/tmmk'},
-  //   ],
-  //   video_file : 'ros2.mov',
-
-  // },
 ]
 
 const basicData = {

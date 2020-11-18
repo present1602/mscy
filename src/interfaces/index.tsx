@@ -5,9 +5,11 @@ export interface IState {
     layer: string,
     activeProject: string
   },
-  basicInfo : {
-    skills: Array<string>,
-    introduction: string
+  skills: {
+    frontend: Array<string>
+    backend: Array<string>
+    dbs: Array<string>
+    servers: Array<string>
   },
   portfolio: Array<IProject>
 }
@@ -20,8 +22,11 @@ export interface IAction {
 export interface IProject {
   abbr: string,
   title : string,
+  thumbImg : string,
   intro_description : string,
   description: string,
+  basic_info: Array<any>
   period : string,
-  stack : Array<string>
+  video_url : string
 }
+

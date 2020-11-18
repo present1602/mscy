@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import { basicData, portfolioData } from './api/data';
+// import { basicData, portfolioData } from './api/data';
 import { RootContext } from './screens/Context';
 
 import TopNav from './components/TopNav';
 import Welcome from './screens/Welcome';
 // import useSticky from './hooks/useSticky.js'
 import Portfolio from './screens/Portfolio';
-import Introduction from './screens/Introduction';
+// import Introduction from './screens/Introduction';
 import Layer from './screens/Layer';
 import Skills from './screens/Skills';
 
@@ -52,25 +52,24 @@ window.addEventListener('scroll', handleScroll2('ccc', innerfnc));
 // });
 
 
-
+console.log("App.tsx load")
 
 function App() {
   console.log("App() comp")
   const { state, dispatch } = React.useContext(RootContext);
-
-
+  
   useEffect( () => {
     console.log("useEffect in App.txs : ", state);
 
-    dispatch({
-      type: "FETCH_BASIC_DATA",
-      payload: basicData
-    })
+    // dispatch({
+    //   type: "FETCH_BASIC_DATA",
+    //   payload: basicData
+    // })
 
-    dispatch({
-      type: "FETCH_PORTFOLIO_DATA",
-      payload: portfolioData
-    })
+    // dispatch({
+    //   type: "FETCH_PORTFOLIO_DATA",
+    //   payload: portfolioData
+    // })
     
     // dispatch({
     //   type: "HANDLE_LAYER",
@@ -86,9 +85,9 @@ function App() {
   return (
     <div id="container">
       
-      {/* { state.layerScreen.openLayer &&  */}
+      { state.layerScreen.openLayer && 
           <Layer />
-      {/* } */}
+      }
       <TopNav />
       <Welcome />
       <Skills />
