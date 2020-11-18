@@ -16,11 +16,11 @@ const Portfolio = (): any => {
     const pfData = state.portfolio;  
     console.log("pfData : ", pfData);
     setPfData(pfData)
-    
+
   }, [])
   
-
-  console.log("in portfolio.js, state.portfolio : ", state.portfolio)
+  // console.log("in portfolio.js, state.portfolio : ", state.portfolio)
+  
   return (
     <>
       <div id="portfolioWrap">
