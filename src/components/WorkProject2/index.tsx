@@ -21,7 +21,7 @@ const WorkProject = () => {
 
           <p className="roleTitle">QR코드관리시스템</p>
           <p className="description">- QR코드 발급, 검증, 폐기, 조회 등 QR코드관리시스템 DB설계, 개발 및 관리자페이지 연동</p>
-
+          <p>기간 : 2020.1~2020.5</p>
           <p className="languages">자바, jsp, 오라클</p>
         </div>
         <div id="workProjectImgBox2" className="workProjectImgBox"/>

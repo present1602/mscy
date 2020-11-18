@@ -1,15 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Skills.css';
 import { RootContext } from '../Context';
 
 const Skills = () => {
 
   const { state } = React.useContext(RootContext);
+  
+  const [skills, setSkills] = useState({
+    frontend : [],
+    backend : [],
+    dbs : [],
+    servers : [],
+  })
 
-  const frs = state.skills.frontend
-  const bks = state.skills.backend
-  const dbs = state.skills.dbs
-  const servers = state.skills.servers
+  useEffect(() => {
+    const skillsData = state.skills
+    console.log("skillsData : ",  skillsData)
+    setSkills(skillsData);
+    // const skills = state.skills.frontend
+    // const bks = state.skills.backend
+    // const dbs = state.skills.dbs
+    // const servers = state.skills.servers
+  }, [])
+
 
   return (
     <div id='skillsWrap'>
@@ -18,7 +31,7 @@ const Skills = () => {
         <div style={{ padding: '30px 10px'}}>
           <p className="langGroupTitle">Frontend</p>
           <div className="gridbox-5col">
-            { frs.map( (el: string) => {
+            { skills.frontend.map( (el: string) => {
               return ( 
                 <div className="proLangImgBox" key={Math.random()}>
                   <img src={ require('../../assets/images/langlogo/frontend/' + el + '.png') }/>
@@ -29,7 +42,7 @@ const Skills = () => {
 
           <p className="langGroupTitle">Backend</p>
           <div className="gridbox-3col">
-            { bks.map( (el: string) => {
+            { skills.backend.map( (el: string) => {
               return ( 
                 <div className="proLangImgBox" key={Math.random()}>
                   <img src={ require('../../assets/images/langlogo/backend/' + el + '.png') }/>
@@ -40,7 +53,7 @@ const Skills = () => {
 
           <p className="langGroupTitle">Database</p>
           <div className="gridbox-3col">
-            { dbs.map( (el: string)=> {
+            { skills.dbs.map( (el: string)=> {
               return ( 
                 <div className="proLangImgBox" key={Math.random()}>
                   <img src={ require('../../assets/images/langlogo/db/' + el + '.png') }/>
@@ -51,7 +64,7 @@ const Skills = () => {
 
           <p className="langGroupTitle">Server</p>
           <div className="gridbox-3col">
-            { servers.map( (el: string) => {
+            { skills.servers.map( (el: string) => {
               return ( 
                 <div className="proLangImgBox" key={Math.random()}>
                   <img src={ require('../../assets/images/langlogo/server/' + el + '.png') }/>
