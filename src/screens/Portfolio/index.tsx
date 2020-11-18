@@ -16,6 +16,7 @@ const Portfolio = (): any => {
     const pfData = state.portfolio;  
     console.log("pfData : ", pfData);
     setPfData(pfData)
+    
   }, [])
   
 
