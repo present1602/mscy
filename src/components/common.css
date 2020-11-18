@@ -38,4 +38,11 @@ h2{
   .projectBox{
     display: block;
   }
+  h2{
+    font-size: 1.1em
+  }
+  .projectBox p{
+    line-height: 1.5em;
+    font-size: 1em;
+  }
 }
