@@ -1,0 +1,41 @@
+.projectBox{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  /* height: 300px; */
+  width: 100%;
+  /* border:1px solid red; */
+}
+
+h2{
+  margin-bottom: 0.4em
+}
+#workProjectImgBox1{
+  background-image: url("../assets/images/portfolio/lg_cloi.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height:360px;
+  
+}
+#workProjectImgBox2{
+  background-image: url("../assets/images/portfolio/kb_qr.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height:360px;
+}
+.projectBox p{
+  line-height: 1.7em;
+  font-size: 1.2em;
+}
+.workProjectImgBox{
+  margin: 1em 0.5em
+}
+.descriptionBox{
+  margin: 1em
+}
+
+@media screen and (max-width:768px){
+  .projectBox{
+    display: block;
+  }
+}

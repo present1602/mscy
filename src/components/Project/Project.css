@@ -4,12 +4,12 @@
 
 
 .projectTitle{
-  font-size: 1.8rem;
+  font-size: 2.6rem;
   padding: 10px 0;
 }
 .mainInfoText{
   line-height: 1.6em;
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: rgba(77,77,77)
 }
 
@@ -23,12 +23,12 @@
   border-bottom: 3px solid #4633af;
   position: relative;
   top: -2px;
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 
 .subInfoText{
   color: rgba(97,97,97);
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5em;
 }
 

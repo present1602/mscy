@@ -1,0 +1,34 @@
+.projectBox{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  /* height: 300px; */
+  width: 100%;
+  border:1px solid red;
+}
+.projectBox *{
+  border:1px solid blue
+} 
+
+#workProjectImgBox1{
+  background-image: url("../../assets/images/portfolio/lg_cloi.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height:360px;
+  
+}
+#workProjectImgBox2{
+  background-image: url("../../assets/images/portfolio/kb_qr.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height:360px;
+}
+.projectBox p{
+  line-height: 1.7em;
+  font-size: 1.2em;
+}
+@media screen and (max-width:768px){
+  .projectBox{
+    display: block;
+  }
+}

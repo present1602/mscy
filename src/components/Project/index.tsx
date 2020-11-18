@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import styled from "styled-components";
 import { RootContext } from '../../screens/Context';
 import './Project.css';
 
@@ -90,7 +89,7 @@ const Project = (props: any) => {
           {data.basic_info.map((el: IInfoEl) =>
             <p key={Math.random()} className='subInfoText'>
               <strong>
-                <span style={{ display:'inline-block', width: '30px'}}>{el.name}</span> : 
+                <span style={{ display:'inline-block', width: '40px'}}>{el.name}</span> : 
               </strong>
               <span style={{ padding: '0 10px'}}>{el.value}</span>
             </p>

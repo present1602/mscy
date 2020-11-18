@@ -3,6 +3,7 @@ import './Portfolio.css';
 import { RootContext } from '../../screens/Context';
 import Project from '../../components/Project';
 import WorkProject from '../../components/WorkProject';
+import WorkProject2 from '../../components/WorkProject2';
 import { IProject } from '../../interfaces';
 
 console.log("Portfolio.tsx load")
@@ -24,8 +25,12 @@ const Portfolio = (): any => {
         }
       </div>
       <div id="workPortfolioWrap">
-        <div className="portfolioTop">포트폴리오 work</div>
+        <div className="portfolioTop">
+          포트폴리오 
+          <span style={{ color: "gray",fontFamily: "monospace", fontStyle: "italic" }}>Work</span>
+        </div>
         <WorkProject />
+        <WorkProject2 />
       </div>
 
     </>
