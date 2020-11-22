@@ -23,15 +23,36 @@ h2{
   background-position: center;
   min-height:360px;
 }
-.projectBox p{
+.descriptionBox > p{
   line-height: 1.7em;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 .workProjectImgBox{
   margin: 1em 0.5em
 }
 .descriptionBox{
   margin: 1em
+}
+
+.roleSubBox{
+  margin-bottom: 0.7em;
+}
+
+.roleTop{
+  line-height: 1.7em;
+  font-size: 1.3em;
+  margin-top: 1em;
+}
+.roleMainText{
+  line-height: 1.7em;
+  font-size: 1.3em;
+}
+.subDescription{
+  font-size: 1.15em;
+  color: rgba(97,97,97);
+  padding: 2px 0;
+  padding-left: 1em;
+  line-height: 1.5em;
 }
 
 @media screen and (max-width:768px){
@@ -44,5 +65,8 @@ h2{
   .projectBox p{
     line-height: 1.5em;
     font-size: 1em;
+  }
+  .subDescription{
+    font-size: 1.15em;
   }
 }
