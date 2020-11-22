@@ -13,6 +13,10 @@
   color: rgba(77,77,77)
 }
 
+.projectDescription{
+  margin-top: 2em;
+}
+
 .subInfoTop{
   border-bottom: 1px solid rgba(212,212,212);
   margin: 10px 0 ;
@@ -35,10 +39,12 @@
 .projectImgBox{
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0 10%;
   max-width: 200px;
   margin: 0 auto;
 }
+
 
 .projectImgBox > img{
   width: 100%;
@@ -46,7 +52,9 @@
   object-fit: contain;
 }
 
-
+#projectImg-djmk > img{
+  width: 290px;
+}
 
 @media only screen and (max-width: 768px) {
   .projectTitle{
@@ -72,6 +80,10 @@
     width: 200px;
     object-fit: contain;
   }
+  #projectImg-djmk > img{
+    width: 220px;
+  }
+
 }
 
 
@@ -90,5 +102,9 @@
   .skillsTop{
     font-size: 1.5em; 
     color: rgba(167,167,167)
+  }
+
+  .projectDescription{
+    margin-top: 1em;
   }
 }

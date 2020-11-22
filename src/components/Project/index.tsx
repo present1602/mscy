@@ -45,7 +45,7 @@ const Project = (props: any) => {
         {/* <div style={{ display: 'inline-block', height: '200px', 
             background:`url(${String(imagePath)})`, backgroundSize: 'cover'
           }}> */}
-        <div className='projectImgBox'>
+        <div className='projectImgBox' id={`projectImg-${data.abbr}`}>
           <img src={String(imagePath)}
           />
         </div>
@@ -80,7 +80,7 @@ const Project = (props: any) => {
         </div>
       </div>
 
-      <div className="flex-res">
+      <div className="flex-res projectDescription">
         <div style={{ flex: 3.8, padding: '1%' }}>
           <p className='subInfoTop' >
             <span className='subInfoTitle'>Basic Info</span>
