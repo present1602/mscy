@@ -29,7 +29,7 @@
 .subInfoText{
   color: rgba(97,97,97);
   font-size: 1.2em;
-  line-height: 1.5em;
+  line-height: 1.7em;
 }
 
 .projectImgBox{
@@ -59,7 +59,7 @@
     font-size:1.1rem
   }
   .subInfoText{
-    font-size:0.9rem
+    font-size:1rem
   }
   .flex-res{
     flex-direction: column;

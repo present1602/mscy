@@ -10,15 +10,18 @@
 h2{
   margin-bottom: 0.4em
 }
+.roleTop{
+  
+}
 #workProjectImgBox1{
-  background-image: url("../assets/images/portfolio/lg_cloi.jpg");
+  background-image: url("../../assets/images/portfolio/lg_cloi.jpg");
   background-size: cover;
   background-position: center;
   min-height:360px;
   
 }
 #workProjectImgBox2{
-  background-image: url("../assets/images/portfolio/kb_qr.jpg");
+  background-image: url("../../assets/images/portfolio/kb_qr.jpg");
   background-size: cover;
   background-position: center;
   min-height:360px;

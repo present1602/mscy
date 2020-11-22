@@ -8,14 +8,15 @@ const Welcome = () => {
     <div id='welcomeBox'>
       {/* <div ref={element}> */}
       <div>
-        {/* <img src={Logo} alt='logo' className='welcome--logo' /> */}
-        <p>MS Protrolio</p>
-        <p style={{
-          color: 'rgba(97,97,97)', fontWeight: 'bold', fontSize: '3em',
-          fontStyle: 'italic', fontFamily: 'monospace'
-        }}>
-          Hello cyworld! 
+         <p id="position">Bakcend & Frontend Developer</p>
+
+        <p id="introDesction">
+          프로그래밍을 폭넓게 공부해왔으며<br />
+          퀄리티 있는 결과물을 만들어내고자 노력합니다
         </p>
+       
+
+        <p id="bottomTitle">Portfolio of Chiyeon Kim</p>
       </div>
     </div>
   );

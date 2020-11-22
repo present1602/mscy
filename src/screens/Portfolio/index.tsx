@@ -2,8 +2,7 @@ import React, { useState, useReducer, useEffect } from 'react';
 import './Portfolio.css';
 import { RootContext } from '../../screens/Context';
 import Project from '../../components/Project';
-import WorkProject from '../../components/WorkProject';
-import WorkProject2 from '../../components/WorkProject2';
+import WorkProjects from '../../components/WorkProjects';
 import { IProject } from '../../interfaces';
 
 console.log("Portfolio.tsx load")
@@ -18,7 +17,6 @@ const Portfolio = (): any => {
     setPfData(pfData)
 
   }, [])
-  
   // console.log("in portfolio.js, state.portfolio : ", state.portfolio)
   
   return (
@@ -37,8 +35,7 @@ const Portfolio = (): any => {
           포트폴리오 
           <span style={{ color: "gray",fontFamily: "monospace", fontStyle: "italic" }}>Work</span>
         </div>
-        <WorkProject />
-        <WorkProject2 />
+        <WorkProjects />
       </div>
 
     </>

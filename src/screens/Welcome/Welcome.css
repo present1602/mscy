@@ -1,6 +1,9 @@
 #welcomeBox {
   background-color: #1f1f1f;
-  background-image: url("../../assets/images/bgimg.png");
+  /* background-image: url("../../assets/images/main3.jpg"); */
+  background: 
+    linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), 
+    url("../../assets/images/main12.jpg");
   background-size: cover;
   background-position: center;
   line-height: 2.0;
@@ -10,6 +13,42 @@
   align-items: center;
   text-align: center;
   
+}
+
+#position{
+  color: rgba(17,17,17);
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#introDesction{
+  color: rgba(47,47,57); 
+  font-weight: bold; 
+  font-size: 2.3em; 
+  padding: 1.2em;
+  font-family: monospace
+
+}
+#bottomTitle{
+  color: rgba(17,97,97); 
+  font-weight: bold;
+  font-size: 2em;
+  font-style: italic; 
+  font-family: monospace;
+  text-align: right;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  #position{
+    font-size: 1em;
+  }
+  #introDesction{
+    font-size: 1.4em;
+  }
+  #bottomTitle{
+    font-size:1.2em;
+  }
 }
 /*
 .welcome--about {

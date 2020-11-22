@@ -1,8 +1,8 @@
 import React from 'react';
 // import './WorkProject.css';
-import '../common.css';
+// import '../common.css';
 
-const WorkProject = () => {
+const KBProject = () => {
   return (
     <div style={{
       padding: '5%', margin: '5% 0', backgroundColor: '#fff',
@@ -15,7 +15,7 @@ const WorkProject = () => {
       </div>
       <div className="projectBox">
         <div className="descriptionBox">
-          <h2>담당파트</h2>
+          <p className="roleTop">작업내용</p>
           <p className="roleTitle">관리자페이지</p>
           <p className="description">- QR가맹점통합관리자페이지 화면 기획, 디자인, DB설계, 개발</p>
 
@@ -30,4 +30,4 @@ const WorkProject = () => {
   );
 }
 
-export default WorkProject;
+export default KBProject;

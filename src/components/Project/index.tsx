@@ -63,7 +63,7 @@ const Project = (props: any) => {
             <p style={{ padding: '2%' }}>
               <span
                 onClick={() => openlayer('video')}
-                style={{ backgroundColor: 'rgba(184,126,186)', color: '#fff', padding: '1% 3%', margin: '1% 0', borderRadius: '3px' }}>
+                style={{ cursor: 'pointer', backgroundColor: 'rgba(184,126,186)', color: '#fff', padding: '1% 3%', margin: '1% 0', borderRadius: '3px' }}>
                 Video
               </span>
               {/* <span

@@ -1,5 +1,31 @@
 const portfolioData = [
   { 
+    abbr: 'djmk',
+    title : '장고마켓',
+    thumbImg : 'thumb_djmk.png',
+    intro_description : '패션상품 오픈마켓',
+    description: '· Django\n· 회원정보, 상품정보 CRUD\n · 상품문의 & 답글 \n· 카트에 상품담기\n· 배포 : heroku, AWS S3',
+    basic_info : [
+      {'name': '기간', 'value': '2019.5'},
+      {'name': '형태', 'value': '웹(반응형)'},
+      {'name': 'Git', 'value': 'github.com/present1602/djmk'},
+    ],    
+    video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/djmk_video.mov',
+  },
+  { 
+    abbr: 'tzone',
+    title : 'TZONE',
+    thumbImg : 'thumb_tzone.png',
+    intro_description : '택시동승메이트찾기',
+    description: '· 출발지와 목적지가 유사한 승객 간 동승객매칭서비스',
+    basic_info : [
+      {'name': '기간', 'value': '2018.7~9'},
+      {'name': '형태', 'value': '모바일웹(SPA)'},
+      {'name': 'Git', 'value': 'github.com/present1602/tzone'},
+    ],    
+    video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/tzone_video.mov',
+  },
+  { 
     abbr: 'tmmk',
     title : 'Time Market',
     thumbImg : 'thumb_tmmk.png',
@@ -14,19 +40,7 @@ const portfolioData = [
     period : '2018.9',
     video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/tmmk_video.mov',
   },
-  { 
-    abbr: 'djmk',
-    title : '장고마켓',
-    thumbImg : 'thumb_djmk.png',
-    intro_description : '패션상품 오픈마켓',
-    description: '· Django\n· 회원정보, 상품정보 CRUD\n · 상품문의 & 답글 \n· 카트에 상품담기\n· 배포 : heroku, AWS S3',
-    basic_info : [
-      {'name': '기간', 'value': '2019.5'},
-      {'name': '형태', 'value': '웹(반응형)'},
-      {'name': 'Git', 'value': 'github.com/present1602/djmk'},
-    ],    
-    video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/djmk_video.mov',
-  },
+  
 ]
 
 const basicData = {
