@@ -24,7 +24,7 @@ const initialState: IState = {
           {'name': 'Git', 'value': 'github.com/present1602/djmk'},
         ],    
         period : '2019.5',
-        video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/djmk_video.mov',
+        video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/djmk_video.mp4',
       },
       { 
         abbr: 'tzone',
@@ -38,7 +38,7 @@ const initialState: IState = {
           {'name': 'Git', 'value': 'github.com/present1602/tzone'},
         ],    
         period : '2018.7~9',
-        video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/tzone_video.mov',
+        video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/tzone_video.mp4',
       },
       { 
         abbr: 'tmmk',
@@ -53,7 +53,7 @@ const initialState: IState = {
           {'name': 'Git', 'value': 'github.com/present1602/tmmk'},
         ],
         period : '2018.9',
-        video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/tmmk_video.mov',
+        video_url : 'https://mspro20201115.s3.ap-northeast-2.amazonaws.com/ms_video/tmmk_video.mp4',
       },
   ],
   layerScreen: {

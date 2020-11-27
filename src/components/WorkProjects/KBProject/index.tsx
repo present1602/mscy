@@ -29,7 +29,7 @@ const KBProject = () => {
             </div>
             <div className="roleSubBox">
               <p className="roleMainText">· QR코드관리시스템</p>
-              <p className="subDescription">- 구축요건정의서, EMV QR코드규격서 및 KB QR코드규격서에 따라 QR코드 관련 DB설계</p>
+              <p className="subDescription">- 구축요건정의서, EMV QR코드표준규격 및 KB QR코드규격서에 따라 QR코드 관련 DB설계</p>
               <p className="subDescription">- 고정형과 변동형 QR코드의 발급, 검증, 폐기, 조회 등 QR코드 관리시스템 개발 및 관리자페이지 연동</p>
             </div>
           </div>
