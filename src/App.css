@@ -12,3 +12,7 @@ body * {
 .pageScreen{
   padding-top: 70px;
 }
+
+video{
+  outline: 0;
+}
